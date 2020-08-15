@@ -1,4 +1,4 @@
-# Building-ML-Linear-regression-model
+# Building-ML-Linear-Regression-Model
 Building Linear regression model (Tensorflow)
 
 This runs the train function and so adjusts the model weights with each epoch. It also calculates the current loss based on the current weight and bias and prints it out. At the end, the model will have adjusted its weights and biases to the point where it can produce pretty good results and we should be able to draw a line of best fit through the data. Run this loop and you should see 100 print statements describing how the loss changes. It should decrease very rapidly at first and then slow down, starting at around 730 and ending close to 1. We’re not so interested in achieving an accuracy measurement with this model; we just want to minimize loss so that we can draw a line through the data and use that to predict future values.
