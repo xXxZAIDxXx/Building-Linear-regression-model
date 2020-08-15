@@ -5,7 +5,7 @@ This runs the train function and so adjusts the model weights with each epoch. I
 
 If you want to know the final values of weight and bias, print them out like this:
 
-print(model.weight.numpy())
+print(model.weight.numpy()) \n
 print(model.bias.numpy())
 -----------------
 print(model.weight.numpy())
