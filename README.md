@@ -7,20 +7,16 @@ If you want to know the final values of weight and bias, print them out like thi
 
 print(model.weight.numpy())
 print(model.bias.numpy())
-1
-2
+-----------------
 print(model.weight.numpy())
 print(model.bias.numpy())
 These values should be stored in your model object after training. They should either be very close to your original values of m and b, respectively, or at least describe a line that makes sense. In fact, you can draw a line through your original data set by doing this:
-
+-------------------------------------
 new_x = np.linspace(0,4,50)
 new_y = model.weight.numpy() * new_x + model.bias.numpy()
 plt.scatter(new_x,new_y)
 plt.scatter(x,y)
-1
-2
-3
-4
+-------------------------------------
 new_x = np.linspace(0,4,50)
 new_y = model.weight.numpy() * new_x + model.bias.numpy()
 plt.scatter(new_x,new_y)
